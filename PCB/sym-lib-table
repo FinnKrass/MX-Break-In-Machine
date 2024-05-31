@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "2023-03-15_15-33-04")(type "KiCad")(uri "${KIPRJMOD}/Library/2023-03-15_15-33-04/2023-03-15_15-33-04.kicad_sym")(options "")(descr ""))
+  (lib (name "SS34")(type "KiCad")(uri "${KIPRJMOD}/Library/SS34/SS34.kicad_sym")(options "")(descr ""))
+  (lib (name "SS34B-HF")(type "Legacy")(uri "${KIPRJMOD}/Library/SS34B-HF/SS34B-HF.lib")(options "")(descr ""))
+  (lib (name "SSD1306-128x64_OLED")(type "KiCad")(uri "${KIPRJMOD}/Library/SSD1306/SSD1306-128x64_OLED.kicad_sym")(options "")(descr ""))
+  (lib (name "TCR2EF33_LM_CT")(type "Legacy")(uri "${KIPRJMOD}/Library/TCR2EF33,LM(CT/TCR2EF33_LM_CT.lib")(options "")(descr ""))
+  (lib (name "SDB628")(type "Legacy")(uri "${KIPRJMOD}/Library/SDB628/SDB628.lib")(options "")(descr ""))
+)

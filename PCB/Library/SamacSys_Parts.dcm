@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP KXT321LHS
+D Tactile Switches 20mA 15VDC 160gf 0.6mm SPST NO SMT
+K
+F https://www.ckswitches.com/media/1465/kxt3.pdf
+$ENDCMP
+#
+$CMP W25Q32JVSSIM
+D 32M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q32JVSSIM&type=datasheet
+$ENDCMP
+#
+#End Doc Library

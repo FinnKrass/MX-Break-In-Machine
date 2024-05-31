@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS34
+D TAIWAN SEMICONDUCTOR - SS34 - DIODE, SCHOTTKY, 3A, 40V
+K
+F https://componentsearchengine.com/Datasheets/1/SS34.pdf
+$ENDCMP
+#
+#End Doc Library

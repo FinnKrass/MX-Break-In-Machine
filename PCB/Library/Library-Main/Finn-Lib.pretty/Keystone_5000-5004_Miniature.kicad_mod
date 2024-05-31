@@ -1,0 +1,171 @@
+(footprint "Keystone_5000-5004_Miniature"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
+	(tags "Through Hole Mount Test Points")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4cec9fd6-126b-4780-91aa-429813cb8bc8")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "V_{s}"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "abaf0bcc-89a7-4055-b55e-6b509c34c545")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e1b8560-7ee1-489e-bcbb-9bf5cfcade9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e310b63f-fa2a-4403-bee5-a4f012066545")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "811e4a8c-d66d-4782-884c-74010b13ebc6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.4 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "78dbefbe-2790-48f7-8eb3-fa4ef926a680")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.65 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a1a7556a-7063-44b5-bd2b-1767f2ad226c")
+	)
+	(fp_line
+		(start -0.75 -0.25)
+		(end 0.75 -0.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a51320ff-d1e5-4618-979e-fd01009898c5")
+	)
+	(fp_line
+		(start -0.75 0.25)
+		(end -0.75 -0.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b97a5ec-c09c-4595-b206-7ae5d50fdf2f")
+	)
+	(fp_line
+		(start 0.75 -0.25)
+		(end 0.75 0.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b0ef8e0-e405-4fac-b617-fbd5e16e7f0a")
+	)
+	(fp_line
+		(start 0.75 0.25)
+		(end -0.75 0.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40e03c12-4743-49a9-b9d2-6627296277b8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "5f4ac567-6854-44e2-ae2f-778539c9c99b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(uuid "1c012245-2b59-4609-931f-e8f63d5bafb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d82607ca-61ad-4437-be2b-a5b14acab3bf")
+	)
+	(model "C:/Users/Finn/Desktop/Design Projects/Component_3D/Keystone - 5000.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

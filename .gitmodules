@@ -1,0 +1,3 @@
+[submodule "Firmware/PlatformIO-Project/BreakIn-UI/lib/AP33772-Cpp"]
+	path = Firmware/PlatformIO-Project/BreakIn-UI/lib/AP33772-Cpp
+	url = https://github.com/CentyLab/AP33772-Cpp.git

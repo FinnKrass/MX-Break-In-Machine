@@ -1,0 +1,57 @@
+PCBNEW-LibModule-V1  2023-04-02 07:43:24
+# encoding utf-8
+Units mm
+$INDEX
+SOT-25
+$EndINDEX
+$MODULE SOT-25
+Po 0 0 0 15 6429240c 00000000 ~~
+Li SOT-25
+Cd SOT-25
+Kw Integrated Circuit
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 -0.325 -1.304 1.27 1.27 0 0.254 N V 21 N "IC**"
+T1 -0.325 -1.304 1.27 1.27 0 0.254 N I 21 N "SOT-25"
+DS -1.45 -0.8 1.45 -0.8 0.2 24
+DS 1.45 -0.8 1.45 0.8 0.2 24
+DS 1.45 0.8 -1.45 0.8 0.2 24
+DS -1.45 0.8 -1.45 -0.8 0.2 24
+DS -1.45 -0.563 -1.45 0.56 0.2 21
+DS 1.45 -0.563 1.45 0.56 0.2 21
+DS -0.35 -0.799 0.35 -0.799 0.2 21
+DC -0.981 2.012 -1.0403 2.012 0.254 21
+$PAD
+Po -0.95 1.2
+Sh "1" R 0.8 1 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0 1.2
+Sh "2" R 0.6 1 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.95 1.2
+Sh "3" R 0.8 1 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.95 -1.2
+Sh "4" R 0.8 1 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.95 -1.2
+Sh "5" R 0.8 1 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE SOT-25
+$EndLIBRARY

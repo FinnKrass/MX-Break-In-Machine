@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS34B-HF
+D Schottky Diodes & Rectifiers DIODE SCHOTTKY 3A 40V SMB
+K
+F https://www.mouser.jp/datasheet/2/80/SP-JB017_SS34B-HF_Thru._SS320B-HF_RevB-1847021.pdf
+$ENDCMP
+#
+#End Doc Library

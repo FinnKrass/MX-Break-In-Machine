@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCR2EF33,LM_CT
+D Reg IC, CMOS, Vin6V, 3.3V/200mA, SOT-25 Toshiba TCR2EF33,LM(CT, LDO Voltage Regulator, 150mA, 3.3 V +/-1%, 1.5  5.55 Vin, 5-Pin SOT-25
+K
+F https://toshiba.semicon-storage.com/eu/product/linear/power-supply/detail.TCR2EF33.html
+$ENDCMP
+#
+#End Doc Library

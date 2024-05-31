@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SDB628
+D High Efficiency 1.2MHz 2A Step Up Converter
+K
+F https://www.uugear.com/doc/datasheet/SDB628.pdf
+$ENDCMP
+#
+#End Doc Library

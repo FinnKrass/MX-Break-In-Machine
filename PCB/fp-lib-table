@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "Connectors_JST")(type "KiCad")(uri "${KIPRJMOD}/Library/Connectors_JST.pretty-master")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Library/2023-03-15_15-33-04/footprints.pretty")(options "")(descr ""))
+  (lib (name "SS34B-HF")(type "KiCad")(uri "${KIPRJMOD}/Library/SS34B-HF")(options "")(descr ""))
+  (lib (name "TCR2EF33,LM(CT")(type "KiCad")(uri "${KIPRJMOD}/Library/TCR2EF33,LM(CT")(options "")(descr ""))
+  (lib (name "SSD1306")(type "KiCad")(uri "${KIPRJMOD}/Library/SSD1306")(options "")(descr ""))
+  (lib (name "TG9541")(type "KiCad")(uri "${KIPRJMOD}/Library/SSD1306/TG9541.pretty")(options "")(descr ""))
+)

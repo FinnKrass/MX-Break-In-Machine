@@ -1,0 +1,343 @@
+(footprint "SOT-23_SDB628"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT23-6")
+	(tags "Power Supply")
+	(property "Reference" "REF**"
+		(at 3.195 -1.3208 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fec79545-1252-4e32-a71b-b92250d47ca3")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "SDB628"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fca266eb-97ef-47a0-b3bf-01122d1fb9e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fa089d1-d74e-4e3a-aeb0-b4f53fee624f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b93cc92-a58e-499c-b0c8-c30c2d58a8a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter"
+		(at 133.5278 76.982 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "282049ae-34c5-430d-875e-7a5630de0cda")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51e91e91-0d64-4cfc-b34a-e0fbbbc3b2e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "125af87b-f617-4ed5-bfbf-9f45add9f20d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Shouding"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26cf8224-e689-4e31-8c84-f2fbae60414a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SDB628"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07351141-51ca-4ba5-a3f3-b127b7937c5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a19273e-a23c-43c7-872b-d1217930c1c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55ce7803-6c4f-405d-8b01-e32008351d8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -1.6)
+		(end -0.65 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e736fc78-864c-4975-a5d8-b506aef6a965")
+	)
+	(fp_line
+		(start -0.3 -1.45)
+		(end 0.3 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ec75aed-13eb-4da8-8643-88a58ba2421a")
+	)
+	(fp_line
+		(start -0.3 1.45)
+		(end -0.3 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fea57e5-ed50-41f5-be15-95011e99099a")
+	)
+	(fp_line
+		(start 0.3 -1.45)
+		(end 0.3 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8521fe32-b04d-4cc6-bc30-b8cba8097046")
+	)
+	(fp_line
+		(start 0.3 1.45)
+		(end -0.3 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7f13fb2-4d7a-4856-90f1-84a34bbbe820")
+	)
+	(fp_line
+		(start -2.1 -1.75)
+		(end 2.1 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f26b1961-e3e9-4cee-bcd7-3f6e3c77af48")
+	)
+	(fp_line
+		(start -2.1 1.75)
+		(end -2.1 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe5c0b9a-9f1a-48ae-abbb-2cdd7a594dba")
+	)
+	(fp_line
+		(start 2.1 -1.75)
+		(end 2.1 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70917d7a-6242-45b3-96e9-60bc192ec154")
+	)
+	(fp_line
+		(start 2.1 1.75)
+		(end -2.1 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e57bc2ae-469b-4bd0-8f34-6b22af920cb0")
+	)
+	(fp_line
+		(start -0.8 -1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c0eeed1-4b47-4c07-9d62-94fb80685db1")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end 0.15 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19844f46-4db5-4a56-b72a-519e3e93075f")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end -0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ef69f88-0db3-4e2e-ab70-557e19aca9d0")
+	)
+	(fp_line
+		(start 0.8 -1.45)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "929f9ca5-11b0-4d7c-b069-0870c7a2ee7e")
+	)
+	(fp_line
+		(start 0.8 1.45)
+		(end -0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16ecdc0b-99bc-402f-b79d-554dc6ad8f9e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "334dfcb3-7240-4b63-9822-f7d8cd8e9516")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.25 -0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d734fe53-21c7-46b9-bbd6-01cf213b27d5")
+	)
+	(pad "2" smd roundrect
+		(at -1.25 0 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1f25905c-6019-4218-be2d-7a65ef7b8839")
+	)
+	(pad "3" smd roundrect
+		(at -1.25 0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ff671ab3-d3be-46f5-bc59-fa209a59d09c")
+	)
+	(pad "4" smd roundrect
+		(at 1.25 0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8dac2bab-3e0a-4463-b8b6-32606c319810")
+	)
+	(pad "5" smd roundrect
+		(at 1.25 0 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "88c3542d-c174-49b8-95f0-6d3c0dc2cccc")
+	)
+	(pad "6" smd roundrect
+		(at 1.25 -0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "104803ea-6336-46a8-ac83-76e275e88f03")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
