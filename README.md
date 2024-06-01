@@ -68,15 +68,26 @@ OC = Off Centre, PA = Nylon
 Please keep in mind that print tolerances vary between printers (and even print settings). Each piston requires bearings to be pressure fitted for the linear rails. Test first by cutting one of the holes off the model in your slicer, if the bearing fits snug then you're good to go, but if it's too tight or too loose then you can tweak it using the X-Y hole compensation setting in your slicer. This can be very sensitive, so adjust in +/- 50 micron steps.
 
 #### Additional Hardware
+*Sourcing Notes:* 
+
+The JGA25-370 is easy to find, I've linked product pages I've used but if it's easier to purchase elsewhere then just make sure you buy the correct voltage/speed. The same applies for the linear bearings (LM6UU), though there is a huge difference in quality comparing cheap to expensive. If you get the cheap ones (sub 50c each), buy a handfull of extras in case bearings comes out or they're not gliding freely along the rod. The more expensive ones may be worth it if you're going for longevity, if you're in Australia use [these](https://www.makerstore.com.au/product/bear-lm6uu/), and if you can't find any local to yourself then use the links provided in the table below and pick up extras.
+
+For the yoke bearings, the naming scheme is inconsistent across sellers, so purchase based off [dimensions](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Yoke-Bearing.png) if the part number doesn't resemble what's listed in the table below. 
 
 | Name         | Quantity | Optional |    Description    |                                                                             Link                                                                              |
 |:-------------|:--------:|:--------:|:-----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| JGA25-370    |    1     |    NO    |  24V 300/282RPM   |                     [link](https://www.aliexpress.com/i/32987942205.html) [alternative](https://item.taobao.com/item.htm?id=691467377622)                     |
-| SS-01GL2     |    1     |   YES    |  Counter Switch   | [link](https://www.lcsc.com/product-detail/Microswitches_Omron-Electronics_C231399.html) [alternative](https://www.aliexpress.com/item/1005005708872538.html) |
+| JGA25-370    |    1     |    NO    |  24V 300/282RPM   |                     [link](https://www.aliexpress.com/i/32987942205.html)/[alternative](https://item.taobao.com/item.htm?id=691467377622)                     |
+| SS-01GL2     |    1     |   YES    |  Counter Switch   | [link](https://www.lcsc.com/product-detail/Microswitches_Omron-Electronics_C231399.html)/[alternative](https://www.aliexpress.com/item/1005005708872538.html) |
 | LM6UU        |    4     |    NO    |  Linear Bearing   |                                                 [link](https://www.aliexpress.com/item/1005004774546723.html)                                                 |
-| Yoke Bearing |    2     |    NO    | C1L6M3 or 3C1L6M3 |                 [link](https://www.aliexpress.com/item/1005005223529401.html) [alternative](https://item.taobao.com/item.htm?id=672727759613)                 |
-|              |          |          |                   |                                                                                                                                                               |
-|              |          |          |                   |                                                                                                                                                               |
-|              |          |          |                   |                                                                                                                                                               |
-|              |          |          |                   |                                                                                                                                                               |
-|              |          |          |                   |                                                                                                                                                               |
+| Yoke Bearing |    2     |    NO    | C1L6M3 or 3C1L6M3 |                 [link](https://www.aliexpress.com/item/1005005223529401.html)/[alternative](https://item.taobao.com/item.htm?id=672727759613)                 |
+
+#### Fasteners
+| Size  | Quantity |    Type    |
+|:------|:--------:|:----------:|
+| M2x4  |    3     | Hex Socket |
+| M2x10 |    2     | Hex Socket |
+| M3x5  |    2     | Hex Socket |
+| M3x6  |    2     | Hex Socket |
+| M3x6  |    1     | Grub Screw |
+| M3x8  |    4     | Hex Socket |
+| M3    |    3     |  Hex Nut   |
