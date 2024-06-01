@@ -1,6 +1,6 @@
 
 # MX Style Switch Break In Machine 
-
+![Alt text](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Built-Pic.jpeg)
 ## Preamble
 
 This project started when I first fell in love with Cherry MX Black's. I wanted a way to break in the switches for all of my builds, but had absolutely no understanding of electronics and CAD at the time, so took it upon myself to learn how to use Fusion360 and eventually design a circuit. Once the design had come together, I started selling broken in switches with a fleet of these machines running around the clock, which helped me vet the design and iron out any problems as well as optimize certain things to make the labour involved with operating and maintaining the machines easier. I worked on this project on and off over about a year and was planning to sell the machines themselves once they were in a state I was proud of, but some life events got in the way, so I've decided to work back and open source it for others to enjoy as much as I have.
