@@ -22,3 +22,25 @@ The machine is quite rugged, I've had customers request their switches broken in
 - Two speeds can be selected via a switch on the PCB.
 - Rugged 24V motor, capable 564 actuations/minute. (Faster is not recommended)
 - Non-volatile flash memory, will recall number of actuations recorded in the event of power loss.
+
+## Making Your Own
+**NOTE:**
+
+The PCB/Controller is not necessary if it's too much of a hassle to get manufactured and assembled. I may sell the PCB's assembled at some point, but otherwise you just need a 24V power source (or get the 12V motor and a 12V power source)
+
+**Cloning the repository**
+
+Open terminal in your folder of choice:
+
+`git clone https://github.com/FinnKrass/MX-Break-In-Machine.git`
+
+then:
+
+`cd MX-Break-In-Machine`
+
+and lastly:
+
+`git submodule init`
+
+### Printing
+
