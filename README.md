@@ -74,6 +74,8 @@ The JGA25-370 is easy to find, I've linked product pages I've used but if it's e
 
 For the yoke bearings, the naming scheme is inconsistent across sellers, so purchase based off [dimensions](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Yoke-Bearing.png) if the part number doesn't resemble what's listed in the table below. 
 
+For the 6mm smooth rod there are a few ways you can purchase them, I've linked one example. The length required is 145mm +/- 5mm, you can usually find stores which sell them pre cut to 150mm which works just fine, or if you can only find greater lengths then just cut them down to size. Alternatively, some suppliers will let you request a specific length in which case have them cut to 145mm. No matter how you arrive at the 145mm +/- 5mm, you should check both ends and make sure they're smooth/free of burrs. If the ends aren't smooth there's a chance that the rod will catch on the bearing balls inside the linear bearing, which will break it.
+
 | Name         | Quantity | Optional |    Description    |                                                                             Link                                                                              |
 |:-------------|:--------:|:--------:|:-----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | JGA25-370    |    1     |    NO    |  24V 300/282RPM   |                     [link](https://www.aliexpress.com/i/32987942205.html)/[alternative](https://item.taobao.com/item.htm?id=691467377622)                     |
