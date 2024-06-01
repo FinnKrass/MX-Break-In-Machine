@@ -26,7 +26,9 @@ The machine is quite rugged, I've had customers request their switches broken in
 ## Making Your Own
 **NOTE:**
 
-The PCB/Controller is not necessary if it's too much of a hassle to get manufactured and assembled. I may sell the PCB's assembled at some point, but otherwise you just need a 24V power source (or get the 12V motor and a 12V power source)
+The PCB/Controller is not necessary if it's too much of a hassle to get manufactured and assembled. I may sell the PCB's assembled at some point, but otherwise you just need a 24V power source (or get the 12V motor and a 12V power source).
+
+I also want to say that a lot of the design decisions were made for repeatability, convenience, and cost saving. This is to say, there are likely areas which can be improved for an end user. 
 
 **Cloning the repository**
 
@@ -44,3 +46,37 @@ and lastly:
 
 ### Printing
 
+It's a good idea to make the prints rugged, for each item in the print BoM there will be a corresponding *suggested* material. These can be changed, but I can't guarantee the longevity if substituted for a weaker material. I've only tested the off centre plates in TPU, so I can't guarantee functionality if printed in standard materials. I've also added a column for alternative materials where applicable. Finally, when selecting the print settings, make sure you use ~6 or more perimeters and 25% (gyroid) infill. For some parts this strength isn't critical, so feel free to make changes at your own liberty. I've also selected the primary material choices to be attainable at a reasonable price, if Nylon (PA) or PC are listed as an alternative and you have some on hand, then use that!
+#### Print BoM
+
+| Name                 | Quantity | Material | Optional |   Alternative   |
+|:---------------------|:--------:|:--------:|:--------:|:---------------:|
+| Switch Tray          |    2     |   PLA    |    NO    | PETG/PLA-CF/ABS |
+| Back Plate           |    2     |   TPU    |    NO    |  PLA/PETG/ABS   |
+| Machine Housing      |    1     | PETG-CF  |    NO    | PETG/PLA-CF/ABS |
+| Motor Mounting Plate |    1     | PETG-CF  |    NO    |  PA-CF/PAHT-CF  |
+| Motor Yoke           |    1     | PETG-CF  |    NO    |  PA-CF/PAHT-CF  |
+| Piston               |    2     | PETG-CF  |    NO    |   PLA-CF/ABS    |
+| Rod Cap              |    2     |   PLA    |    NO    | PETG/PLA-CF/ABS |
+| OC Back Plate        |    2     |   TPU    |   YES    |       N/A       |
+| OC Piston Sleeve     |    2     |   TPU    |   YES    |       N/A       |
+
+OC = Off Centre, PA = Nylon
+
+*NOTE:*
+
+Please keep in mind that print tolerances vary between printers (and even print settings). Each piston requires bearings to be pressure fitted for the linear rails. Test first by cutting one of the holes off the model in your slicer, if the bearing fits snug then you're good to go, but if it's too tight or too loose then you can tweak it using the X-Y hole compensation setting in your slicer. This can be very sensitive, so adjust in +/- 50 micron steps.
+
+#### Additional Hardware
+
+| Name         | Quantity | Optional |    Description    |                                                                             Link                                                                              |
+|:-------------|:--------:|:--------:|:-----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| JGA25-370    |    1     |    NO    |  24V 300/282RPM   |                     [link](https://www.aliexpress.com/i/32987942205.html) [alternative](https://item.taobao.com/item.htm?id=691467377622)                     |
+| SS-01GL2     |    1     |   YES    |  Counter Switch   | [link](https://www.lcsc.com/product-detail/Microswitches_Omron-Electronics_C231399.html) [alternative](https://www.aliexpress.com/item/1005005708872538.html) |
+| LM6UU        |    4     |    NO    |  Linear Bearing   |                                                 [link](https://www.aliexpress.com/item/1005004774546723.html)                                                 |
+| Yoke Bearing |    2     |    NO    | C1L6M3 or 3C1L6M3 |                 [link](https://www.aliexpress.com/item/1005005223529401.html) [alternative](https://item.taobao.com/item.htm?id=672727759613)                 |
+|              |          |          |                   |                                                                                                                                                               |
+|              |          |          |                   |                                                                                                                                                               |
+|              |          |          |                   |                                                                                                                                                               |
+|              |          |          |                   |                                                                                                                                                               |
+|              |          |          |                   |                                                                                                                                                               |
