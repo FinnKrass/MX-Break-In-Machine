@@ -26,9 +26,11 @@ The machine is quite rugged, I've had customers request their switches broken in
 ## Making Your Own
 **NOTE:**
 
-The PCB/Controller is not necessary if it's too much of a hassle to get manufactured and assembled. I may sell the PCB's assembled at some point, but otherwise you just need a 24V power source (or get the 12V motor and a 12V power source).
+It's suggested to read through the repo in whole before choosing to build one, there will be notes for each section which will include vital information. If you find any issues in the design or gaps in the documentation, feel free to open a github issue and the problem will be addressed.
 
-I also want to say that a lot of the design decisions were made for repeatability, convenience, and cost saving. This is to say, there are likely areas which can be improved for an end user. 
+The PCB/Controller is not necessary if it's too much of a hassle to get manufactured and assembled. The assembled PCB's may be sold at some point if there's interest, but otherwise you just need a 24V power source (or get the 12V motor and a 12V power source).
+
+Another thing worth mentioning is that a lot of the design decisions were made for repeatability, convenience, and cost saving. This is to say, there are likely areas which can be improved for an end user. 
 
 **Cloning the repository**
 
@@ -46,7 +48,7 @@ and lastly:
 
 ### Printing
 
-It's a good idea to make the prints rugged, for each item in the print BoM there will be a corresponding *suggested* material. These can be changed, but I can't guarantee the longevity if substituted for a weaker material. I've only tested the off centre plates in TPU, so I can't guarantee functionality if printed in standard materials. I've also added a column for alternative materials where applicable. Finally, when selecting the print settings, make sure you use ~6 or more perimeters and 25% (gyroid) infill. For some parts this strength isn't critical, so feel free to make changes at your own liberty. I've also selected the primary material choices to be attainable at a reasonable price, if Nylon (PA) or PC are listed as an alternative and you have some on hand, then use that!
+It's a good idea to make the prints rugged, so for each item in the print BoM there will be a corresponding *suggested* material. These can be changed, but I can't guarantee the longevity if substituted for a weaker material. I've only tested the off centre plates in TPU, so I can't guarantee functionality if printed in standard materials. I've also added a column for alternative materials where applicable. Finally, when selecting the print settings, make sure you use ~6 or more perimeters and 25% (gyroid) infill. For some parts this strength isn't critical, so feel free to make changes at your own liberty. I've also selected the primary material choices to be attainable at a reasonable price, if Nylon (PA) or PC are listed as an alternative and you have some on hand, then use that!
 #### Print BoM
 
 | Name                 | Quantity | Material | Optional |   Alternative   |
@@ -74,7 +76,7 @@ The JGA25-370 is easy to find, I've linked product pages I've used but if it's e
 
 For the yoke bearings, the naming scheme is inconsistent across sellers, so purchase based off [dimensions](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Yoke-Bearing.png) if the part number doesn't resemble what's listed in the table below. 
 
-For the 6mm smooth rod there are a few ways you can purchase them, I've linked one example. The length required is 145mm +/- 5mm, you can usually find stores which sell them pre cut to 150mm which works just fine, or if you can only find greater lengths then just cut them down to size. Alternatively, some suppliers will let you request a specific length in which case have them cut to 145mm. No matter how you arrive at the 145mm +/- 5mm, you should check both ends and make sure they're smooth/free of burrs. If the ends aren't smooth there's a chance that the rod will catch on the bearing balls inside the linear bearing, which will break it.
+For the 6mm smooth rod there are a few ways you can purchase them, one example has been linked. The length required is 145mm +/- 5mm, and you can usually find stores which sell them pre cut to 150mm which works just fine, or if you can only find greater lengths then just cut them down to size. Alternatively some suppliers will let you request a specific length, in which case have them cut to 145mm. No matter how you arrive at the 145mm +/- 5mm, you should check both ends and make sure they're smooth/free of burrs. If the ends aren't smooth there's a chance that the rod will catch on the bearing balls inside the linear bearing, which will break it.
 
 | Name         | Quantity | Optional |    Description    |                                                                             Link                                                                              |
 |:-------------|:--------:|:--------:|:-----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -93,3 +95,9 @@ For the 6mm smooth rod there are a few ways you can purchase them, I've linked o
 | M3x6  |    1     | Grub Screw |
 | M3x8  |    4     | Hex Socket |
 | M3    |    3     |  Hex Nut   |
+
+### Assembly
+
+This drawing should be referenced throughout the assembly process. It tells you what screws go where.
+
+![Alt text](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Assembly-Guide.PNG)
