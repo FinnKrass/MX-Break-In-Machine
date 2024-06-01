@@ -17,6 +17,8 @@ The machine is quite rugged, I've had customers request their switches broken in
     - An off centre version of this was introduced later on. There are two models for this; one which attaches to the piston, and one which rests against the back wall. The intention is to operate in off centre at all times.
 
 - USB Power Delivery compatible controller & power supply.
-- Actuation counter with programmable profiles to disable/enable the motor after *x* number of actuations.
+- 128x64 OLED display for information on progress.
+- Actuation counter with programmable profiles to disable/enable the motor after *x* number of actuations. Currently programmed to turn off after 250,000 actuations to ensure an even distribution of off centre actuations on all 4 sides.
 - Two speeds can be selected via a switch on the PCB.
-
+- Rugged 24V motor, capable 564 actuations/minute. (Faster is not recommended)
+- Non-volatile flash memory, will recall number of actuations recorded in the event of power loss.
