@@ -78,10 +78,12 @@ For the yoke bearings, the naming scheme is inconsistent across sellers, so purc
 
 For the 6mm smooth rod there are a few ways you can purchase them, one example has been linked. The length required is 145mm +/- 5mm, and you can usually find stores which sell them pre cut to 150mm which works just fine, or if you can only find greater lengths then just cut them down to size. Alternatively some suppliers will let you request a specific length, in which case have them cut to 145mm. No matter how you arrive at the 145mm +/- 5mm, you should check both ends and make sure they're smooth/free of burrs. If the ends aren't smooth there's a chance that the rod will catch on the bearing balls inside the linear bearing, which will break it.
 
+If you choose not to have the PCB and bring your own power source, you can ommit the cable harnesses in favour of the correct cable for your power source. The cable linked below is used to connect the limit switch (which counts actuations) and motor to the circuit board.
+
 | Name          | Quantity | Optional |    Description    |                                                                             Link                                                                              |
 |:--------------|:--------:|:--------:|:-----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | JGA25-370     |    1     |    NO    |  24V 300/282RPM   |                     [link](https://www.aliexpress.com/i/32987942205.html)/[alternative](https://item.taobao.com/item.htm?id=691467377622)                     |
-| SS-01GL2      |    1     |   YES    |  Counter Switch   | [link](https://www.lcsc.com/product-detail/Microswitches_Omron-Electronics_C231399.html)/[alternative](https://www.aliexpress.com/item/1005005708872538.html) |
+| SS-01GL2      |    1     |   YES    |    Limit Switch   | [link](https://www.lcsc.com/product-detail/Microswitches_Omron-Electronics_C231399.html)/[alternative](https://www.aliexpress.com/item/1005005708872538.html) |
 | LM6UU         |    4     |    NO    |  Linear Bearing   |                                                 [link](https://www.aliexpress.com/item/1005004774546723.html)                                                 |
 | Yoke Bearing  |    2     |    NO    | C1L6M3 or 3C1L6M3 |                 [link](https://www.aliexpress.com/item/1005005223529401.html)/[alternative](https://item.taobao.com/item.htm?id=672727759613)                 |
 | Cable Harness |    2     |   YES    |    36920-0202     |                                                 [link](https://au.mouser.com/ProductDetail/Molex/36920-0202)                                                  |
@@ -99,7 +101,7 @@ For the 6mm smooth rod there are a few ways you can purchase them, one example h
 
 ### Assembly
 
-This drawing should be referenced throughout the assembly process. It tells you what screws go where.
+This drawing should be referenced throughout the assembly process. It tells you what screws go where. There are also hyperlinks to relevant images scattered throughout the assembly steps in case visual clarification will help.
 
 ![Alt text](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Assembly-Guide.PNG)
 
@@ -108,3 +110,15 @@ This drawing should be referenced throughout the assembly process. It tells you 
 - H2.5 Hex Bit/Key
 - Soldering Iron 
 - Hammer (optional)
+- Needle Nose Pliers (optional)
+- Loctite (optional)
+
+#### Preparing the Motor & Limit Switch
+
+A good starting point is soldering the cable harnesses to the limit switch and motor. The orientation of the cable doesn't matter for either part, but the limit switch can be confusing since it has 3 pins. If your limit switch has the pin names debossed on it's case, e.g. "NC, NO, C" then the two pins we need are "NO" and "C". If it doesn't have the pin names on the casing, then position the switch on the machine housing as it should be when the unit is fully assembled (or see [here](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/A_Limit-Switch.jpeg)). The bottom two pins are the ones we're interested in.
+
+#### Prepare the Motor Assembly
+
+Insert the three M3 hex nuts into the [yoke](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Hex-Nuts.jpeg). Depending on your printer tolerances, they may be difficult to get it. If that is the case, use a pair of needle nose pliers to *carefully* clamp each hex nut into plate. Once that's done, locate the hole on the side of the yoke for the M3x6 [grub screw](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/A_Grub-Screw.jpeg) to go into. Screw in the grub screw using a H1.5 hex bit, don't fully insert it yet, just tighten until the threads engage with the hex nut. After that, you can insert the [yoke bearings](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/A_Yoke-Bearings.jpeg) and tighten them fully. Set the yoke aside for the moment and move to the motor and mounting plate.
+
+Place the motor into the mounting plate, lining up the two screw holes on the motor with the holes in the mounting plate. [Fasten the motor to the plate](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/A_Mounting-Plate.jpeg) using two M3x6 screws, optionally adding a dab of loctite to each screw before tightening. Now you can slide the yoke onto the shaft of the motor, lining up the flat edge of the shaft with the hex nut/grub screw in the yoke. If you can't slide the yoke on, loosen the grub screw a little bit and try again. Then tighten the grub screw, securing the yoke on the shaft (tight enough that you can't full the yoke off, if the hex bit slips then you're more than good). The end product should look like [this](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/A_Mounting-Plate-Finished.jpeg) / [this](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/A_Mounting-Plate-Finished-B.jpeg). 
