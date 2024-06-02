@@ -78,12 +78,13 @@ For the yoke bearings, the naming scheme is inconsistent across sellers, so purc
 
 For the 6mm smooth rod there are a few ways you can purchase them, one example has been linked. The length required is 145mm +/- 5mm, and you can usually find stores which sell them pre cut to 150mm which works just fine, or if you can only find greater lengths then just cut them down to size. Alternatively some suppliers will let you request a specific length, in which case have them cut to 145mm. No matter how you arrive at the 145mm +/- 5mm, you should check both ends and make sure they're smooth/free of burrs. If the ends aren't smooth there's a chance that the rod will catch on the bearing balls inside the linear bearing, which will break it.
 
-| Name         | Quantity | Optional |    Description    |                                                                             Link                                                                              |
-|:-------------|:--------:|:--------:|:-----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| JGA25-370    |    1     |    NO    |  24V 300/282RPM   |                     [link](https://www.aliexpress.com/i/32987942205.html)/[alternative](https://item.taobao.com/item.htm?id=691467377622)                     |
-| SS-01GL2     |    1     |   YES    |  Counter Switch   | [link](https://www.lcsc.com/product-detail/Microswitches_Omron-Electronics_C231399.html)/[alternative](https://www.aliexpress.com/item/1005005708872538.html) |
-| LM6UU        |    4     |    NO    |  Linear Bearing   |                                                 [link](https://www.aliexpress.com/item/1005004774546723.html)                                                 |
-| Yoke Bearing |    2     |    NO    | C1L6M3 or 3C1L6M3 |                 [link](https://www.aliexpress.com/item/1005005223529401.html)/[alternative](https://item.taobao.com/item.htm?id=672727759613)                 |
+| Name          | Quantity | Optional |    Description    |                                                                             Link                                                                              |
+|:--------------|:--------:|:--------:|:-----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| JGA25-370     |    1     |    NO    |  24V 300/282RPM   |                     [link](https://www.aliexpress.com/i/32987942205.html)/[alternative](https://item.taobao.com/item.htm?id=691467377622)                     |
+| SS-01GL2      |    1     |   YES    |  Counter Switch   | [link](https://www.lcsc.com/product-detail/Microswitches_Omron-Electronics_C231399.html)/[alternative](https://www.aliexpress.com/item/1005005708872538.html) |
+| LM6UU         |    4     |    NO    |  Linear Bearing   |                                                 [link](https://www.aliexpress.com/item/1005004774546723.html)                                                 |
+| Yoke Bearing  |    2     |    NO    | C1L6M3 or 3C1L6M3 |                 [link](https://www.aliexpress.com/item/1005005223529401.html)/[alternative](https://item.taobao.com/item.htm?id=672727759613)                 |
+| Cable Harness |    2     |   YES    |    36920-0202     |                                                 [link](https://au.mouser.com/ProductDetail/Molex/36920-0202)                                                  |
 
 #### Fasteners
 | Size  | Quantity |    Type    |
@@ -101,3 +102,9 @@ For the 6mm smooth rod there are a few ways you can purchase them, one example h
 This drawing should be referenced throughout the assembly process. It tells you what screws go where.
 
 ![Alt text](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Assembly-Guide.PNG)
+
+#### Tools Needed:
+- H1.5 Hex Bit/Key
+- H2.5 Hex Bit/Key
+- Soldering Iron 
+- Hammer (optional)
