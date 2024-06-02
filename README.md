@@ -1,9 +1,5 @@
 # MX Style Switch Break In Machine
 
-```
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/FinnKrass/MX-Break-In-Machine/total)
-```
-
 ![Alt text](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Built-Pic.jpeg)
 
 ## Preamble
