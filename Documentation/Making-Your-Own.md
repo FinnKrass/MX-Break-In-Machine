@@ -24,7 +24,7 @@ and lastly:
 
 ### Printing
 
-It's a good idea to make the prints rugged, so for each item in the print BoM there will be a corresponding *suggested* material. These can be changed, but I can't guarantee the longevity if substituted for a weaker material. I've only tested the off centre plates in TPU, so I can't guarantee functionality if printed in standard materials. It's important that you have your TPU print profiles dialed in for the off centre plates, there are a hanfull of bridges and some steep overhangs. Where applicable, alternative materials are listed. 
+It's a good idea to make the prints rugged, so for each item in the print BoM there will be a corresponding *suggested* material. These can be changed, but I can't guarantee the longevity if substituted for a weaker material. I've only tested the off centre plates in TPU, so I can't guarantee functionality if printed in standard materials. It's important that you have your TPU print profiles dialled in for the off centre plates, there are a handful of bridges and some steep overhangs. Where applicable, alternative materials are listed. 
 
 When selecting the print settings, make sure you use ~6 perimeters and 25% (gyroid) infill. For some parts this strength isn't critical, so feel free to make changes at your own liberty. I've also selected the primary material choices to be attainable at a reasonable price and printable by beginners, but if any Nylon filaments are listed as an alternative and you have some on hand, then use that!  The last thing to note is that supports are not needed for any part, there's a few short bridges and mild overhangs, but all printers should be able to handle that. Screw bores that are on the bottom surface are modelled with sequential bridging, these print cleanly without supports but your slicer may automatically add them without you realising *so make sure to disable automatic supports*.
 
@@ -52,13 +52,13 @@ Please keep in mind that print tolerances vary between printers (and even print 
 
 *Sourcing Notes:* 
 
-The JGA25-370 is easy to find, I've linked product pages I've used but if it's easier to purchase elsewhere then just make sure you buy the correct voltage/speed. The same applies for the linear bearings (LM6UU), though there is a huge difference in quality comparing cheap to expensive. If you get the cheap ones (sub 50c each), buy a handfull of extras in case bearings comes out or they're not gliding freely along the rod. The more expensive ones may be worth it if you're going for longevity, if you're in Australia use [these](https://www.makerstore.com.au/product/bear-lm6uu/), and if you can't find any local to yourself then use the links provided in the table below and pick up extras.
+The JGA25-370 is easy to find, I've linked product pages I've used but if it's easier to purchase elsewhere then just make sure you buy the correct voltage/speed. The same applies for the linear bearings (LM6UU), though there is a huge difference in quality comparing cheap to expensive. If you get the cheap ones (sub 50c each), buy a handful of extras in case bearings comes out or they're not gliding freely along the rod. The more expensive ones may be worth it if you're going for longevity, if you're in Australia use [these](https://www.makerstore.com.au/product/bear-lm6uu/), and if you can't find any local to yourself then use the links provided in the table below and pick up extras.
 
 For the yoke bearings, the naming scheme is inconsistent across sellers, so purchase based off [dimensions](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Yoke-Bearing.png) if the part number doesn't resemble what's listed in the table below. 
 
 For the 6mm smooth rod there are a few ways you can purchase them, one example has been linked. The length required is 145mm +/- 5mm, and you can usually find stores which sell them pre cut to 150mm which works just fine, or if you can only find greater lengths then just cut them down to size. Alternatively some suppliers will let you request a specific length, in which case have them cut to 145mm. No matter how you arrive at the 145mm +/- 5mm, you should check both ends and make sure they're smooth/free of burrs. If the ends aren't smooth there's a chance that the rod will catch on the bearing balls inside the linear bearing, which will break it.
 
-If you choose not to have the PCB and bring your own power source, you can ommit the cable harnesses in favour of the correct cable for your power source. The cable linked below is used to connect the limit switch (which counts actuations) and motor to the circuit board.
+If you choose not to have the PCB and bring your own power source, you can omit the cable harnesses in favour of the correct cable for your power source. The cable linked below is used to connect the limit switch (which counts actuations) and motor to the circuit board.
 
 | Name          | Quantity | Optional | Description       | Link                                                                                                                                                          |
 |:------------- |:--------:|:--------:|:-----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -82,7 +82,7 @@ If you choose not to have the PCB and bring your own power source, you can ommit
 
 ### Assembly
 
-This drawing should be referenced throughout the assembly process. It tells you what screws go where. There are also hyperlinks to relevant images scattered throughout the assembly steps in case visual clarification is needed.
+This drawing should be referenced throughout the assembly process. It tells you what screws go where. There are also hyper-links to relevant images scattered throughout the assembly steps in case visual clarification is needed.
 
 ![Alt text](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Assembly-Guide.PNG)
 
@@ -99,7 +99,7 @@ This drawing should be referenced throughout the assembly process. It tells you 
 
 *NOTE:* Limit switch == SPDT switch
 
-A good starting point is soldering the cable harnesses to the limit switch and motor. The orientation of the cable doesn't matter for either part, but the limit switch can be confusing since it has 3 pins. If your limit switch has the pin names debossed on it's case, e.g. "NC, NO, C" then the two pins we need are "NO" and "C". If it doesn't have the pin names on the casing, then position the switch on the machine housing as it should be when the unit is fully assembled (or see [here](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/A_Limit-Switch.jpeg)). The bottom two pins are the ones we're interested in.
+A good starting point is soldering the cable harnesses to the limit switch and motor. The orientation of the cable doesn't matter for either part, but the limit switch can be confusing since it has 3 pins. If your limit switch has the pin names de-bossed on it's case, e.g. "NC, NO, C" then the two pins we need are "NO" and "C". If it doesn't have the pin names on the casing, then position the switch on the machine housing as it should be when the unit is fully assembled (or see [here](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/A_Limit-Switch.jpeg)). The bottom two pins are the ones we're interested in.
 
 You can attach the limit switch to the machine housing now. It attaches using 2 M2x10 screws as shown in the drawing above.
 
@@ -113,7 +113,7 @@ Place the motor into the mounting plate, lining up the two screw holes on the mo
 
 This step is very easy if you've tuned the print profile for the bearings to fit, but can be a bit of a pain otherwise. Since the bearings are press fit, the tolerances of the print are important. 
 
-You just need to press fit the linear bearings (4 x LM6UU's) into the two pistons. The models current dimensions are perfect on my X1 Carbon and I can push them in by hand with a bit of force. If you can only get the bearing in partially by hand, use a hammer to very gently tap it in the rest of the way. Let gravity do the work with the hammer, too much force can break the print. If you find the bearing is too easy to push in, it's best if you go back and tune the print settings a bit more. Even though it may be difficult to pull the bearing back out, over time the plastic will stretch and you'll find the bearing comes out of the piston when in operation. You can add a dab of superglue if you don't want to waste a print, but I don't recommend this since there may be room for the bearing to not be perfectly aligned.
+You just need to press fit the linear bearings (4 x LM6UU's) into the two pistons. The models current dimensions are perfect on my X1 Carbon and I can push them in by hand with a bit of force. If you can only get the bearing in partially by hand, use a hammer to very gently tap it in the rest of the way. Let gravity do the work with the hammer, too much force can break the print. If you find the bearing is too easy to push in, it's best if you go back and tune the print settings a bit more. Even though it may be difficult to pull the bearing back out, over time the plastic will stretch and you'll find the bearing comes out of the piston when in operation. You can add a dab of super-glue if you don't want to waste a print, but I don't recommend this since there may be room for the bearing to not be perfectly aligned.
 
 If you have printed the off centre sleeves, attach them to the pistons now.
 
@@ -139,4 +139,4 @@ Secure the PCB to the machine using 3 M2x4 screws. Connect the motor cable to th
 
 Your first time powering up the machine should be without any switches loaded. Supply power via a USB-C cable from a charger of your choice (chargers are discussed in the main readme). On first power up, the motor will remain off until the user holds down the top right button for 1 or more seconds. Hold the top right button for 1 second and then release it, the motor should start spinning. Press the limit switch down and confirm that the actuation counter incremented by 1. Pressing the top right button for less than 1 second will reset the count to 0. 
 
-Once you have confirmed the machine is working, it's time to load it up with some switches and enjoy! For instructions and notes on general usage, please refer to "user-instruction.md".
+Once you have confirmed the machine is working, it's time to load it up with some switches and enjoy! For instructions and notes on general usage, please refer to the documentation on operation.
