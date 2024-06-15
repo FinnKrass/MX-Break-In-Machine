@@ -19165,7 +19165,7 @@
 				)
 			)
 		)
-		(property "Value" "BTN_R"
+		(property "Value" "BTN_UR"
 			(at 267.97 133.858 0)
 			(effects
 				(font
