@@ -1,4 +1,4 @@
-## Full Bill of Materials (Hardware)
+## Bill of Materials (Hardware)
 
 There are two documents which outline all components needed in order to make sourcing easier than finding links throughout all of the docs. Links provided here will be for AliExpress (and Taobao where applicable) for the machine itself, and another document is dedicated to components from mouser for the PCB<sup>*</sup>. I wanted to make sourcing as easy as possible, so you should be able to order all of the components you need from just two locations (or one if you're skipping the PCB).
 
@@ -36,5 +36,3 @@ M3 and M2 kits can be found [here](https://www.aliexpress.com/item/1005005999729
 | ------------------- |:----------------:|:-------------------------------------------------------------:|:---------------------------------------------------------------:|
 | SDB628              | 10 (min order q) | [link](https://www.aliexpress.com/item/1005001682782080.html) | [alternative](https://www.aliexpress.com/item/32868057947.html) |
 | OLED 128x64 (0.96") | 1                | [link](https://www.aliexpress.com/item/1005004993682117.html) | [alternative](https://www.aliexpress.com/item/32638662748.html) |
-
-

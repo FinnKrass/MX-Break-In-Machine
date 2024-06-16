@@ -71,7 +71,7 @@ If you choose not to have the PCB and bring your own power source, you can omit 
 | Cable Harness | 2        | YES      | 36920-0202        | [link](https://au.mouser.com/ProductDetail/Molex/36920-0202)                                                                                                  |
 | Smooth Rod    | 2        | NO       | 6 mm              | [link](https://www.aliexpress.com/item/1005006293171727.html)                                                                                                 |
 
-#### Fasteners
+##### Fasteners
 
 | Size  | Quantity | Type       |
 |:----- |:--------:|:----------:|

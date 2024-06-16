@@ -1,8 +1,50 @@
 # MX Style Switch Break In Machine
 
+Repository is still a work in progress!
+
+A unique take on the switch break in machine intended to streamline the process and maximise outcomes. Useful for those who want to improve the sound and feeling of MX style keyboard switches that come scratchy/inconsistent from the factory.
+
 ![Alt text](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Built-Pic.jpeg)
 
-## Preamble
+**Table of Contents:**
+
+- [Main README](#mx-style-switch-break-in-machine)
+  
+  - [Background](#background)
+  
+  - [Features](#features)
+
+- [Bill of Materials - Hardware]()
+
+- [Making Your Own](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#making-your-own)
+  
+  - [Printing](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#printing)
+    
+    - [Print BoM](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#print-bom)
+  
+  - [Additional Hardware](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#additional-hardware)
+    
+    - [Fasteners](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#fasteners)
+  
+  - [Assembly](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#assembly)
+    
+    - [Tools Needed](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#tools-needed)
+    
+    - [Prepare Motor & Limit Switch](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#preparing-the-motor--limit-switch)
+    
+    - [Prepare Motor Assembly](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#prepare-the-motor-assembly)
+    
+    - [Prepare the Pistons](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#prepare-the-pistons)
+    
+    - [Install the Pistons](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#install-the-pistons)
+    
+    - [Install the Motor Assembly](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#install-the-motor-assembly)
+    
+    - [Install the PCB](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#install-the-pcb)
+  
+  - [Testing & Notes](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#testing--notes)
+
+## Background
 
 This project started when I first fell in love with Cherry MX Black's. I wanted a way to break in the switches for all of my builds, but had absolutely no understanding of electronics and CAD at the time, so took it upon myself to learn how to use Fusion360 and eventually design a circuit. Once the design had come together, I started selling broken in switches with a fleet of these machines running around the clock, which helped me vet the design and iron out any problems as well as optimize certain things to make the labor involved with operating and maintaining the machines easier. I worked on this project on and off over about a year and was planning to sell the machines themselves once they were in a state I was proud of, but some life events got in the way, so I've decided to work back and open source it for others to enjoy as much as I have.
 
