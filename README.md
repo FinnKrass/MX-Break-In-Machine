@@ -13,6 +13,10 @@ A unique take on the switch break in machine intended to streamline the process 
   - [Background](#background)
   
   - [Features](#features)
+  
+  - [To Do](#to-do)
+  
+  - [References & Thanks](#references--thanks)
 
 - [Bill of Materials - Hardware](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/BoM/Bill-of-Materials-(Hardware).md#bill-of-materials-hardware)
   
@@ -47,6 +51,14 @@ A unique take on the switch break in machine intended to streamline the process 
     - [Install the PCB](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#install-the-pcb)
   
   - [Testing & Notes](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#testing--notes)
+
+- [Making the PCB](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-The-PCB.md)
+  
+  - [Notes](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-The-PCB.md#notes)
+  
+  - [To Do](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-The-PCB.md#to-do)
+  
+  - [Ordering from JLCPCB](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-The-PCB.md#ordering-from-jlcpcb)
 
 ## Background
 
