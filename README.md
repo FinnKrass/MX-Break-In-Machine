@@ -14,7 +14,11 @@ A unique take on the switch break in machine intended to streamline the process 
   
   - [Features](#features)
 
-- [Bill of Materials - Hardware]()
+- [Bill of Materials - Hardware](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/BoM/Bill-of-Materials-(Hardware).md#bill-of-materials-hardware)
+  
+  - [Hardware](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/BoM/Bill-of-Materials-(Hardware).md#hardware)
+  
+  - [Fasteners](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/BoM/Bill-of-Materials-(Hardware).md#fasteners)
 
 - [Making Your Own](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Documentation/Making-Your-Own.md#making-your-own)
   
