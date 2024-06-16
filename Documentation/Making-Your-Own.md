@@ -52,6 +52,8 @@ Please keep in mind that print tolerances vary between printers (and even print 
 
 *Sourcing Notes:* 
 
+There are dedicated documents covering the BoM for the entire project to make sourcing easier. If you're find purchasing from the AliExpress links provided, you can mostly ignore the following notes as they cover things to look out for when sourcing elsewhere.
+
 The JGA25-370 is easy to find, I've linked product pages I've used but if it's easier to purchase elsewhere then just make sure you buy the correct voltage/speed. The same applies for the linear bearings (LM6UU), though there is a huge difference in quality comparing cheap to expensive. If you get the cheap ones (sub 50c each), buy a handful of extras in case bearings comes out or they're not gliding freely along the rod. The more expensive ones may be worth it if you're going for longevity, if you're in Australia use [these](https://www.makerstore.com.au/product/bear-lm6uu/), and if you can't find any local to yourself then use the links provided in the table below and pick up extras.
 
 For the yoke bearings, the naming scheme is inconsistent across sellers, so purchase based off [dimensions](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Yoke-Bearing.png) if the part number doesn't resemble what's listed in the table below. 
@@ -67,6 +69,7 @@ If you choose not to have the PCB and bring your own power source, you can omit 
 | LM6UU         | 4        | NO       | Linear Bearing    | [link](https://www.aliexpress.com/item/1005004774546723.html)                                                                                                 |
 | Yoke Bearing  | 2        | NO       | C1L6M3 or 3C1L6M3 | [link](https://www.aliexpress.com/item/1005005223529401.html)/[alternative](https://item.taobao.com/item.htm?id=672727759613)                                 |
 | Cable Harness | 2        | YES      | 36920-0202        | [link](https://au.mouser.com/ProductDetail/Molex/36920-0202)                                                                                                  |
+| Smooth Rod    | 2        | NO       | 6 mm              | [link](https://www.aliexpress.com/item/1005006293171727.html)                                                                                                 |
 
 #### Fasteners
 
