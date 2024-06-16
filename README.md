@@ -79,3 +79,25 @@ The machine is quite rugged, I've had customers request their switches broken in
 - Rugged 24V motor, capable 564 actuations/minute. (Faster is not recommended)
 
 - Non-volatile flash memory, will recall number of actuations recorded in the event of power loss.
+
+## To-Do
+
+- [ ] Finalise documentation
+  
+  - [ ] User guide and tips on operating the machine
+  
+  - [ ] General clean up, more coherent structure.
+
+- [ ] Acceptable print tolerance specifications
+
+- [ ] Piston bearing socket tolerance calibration print
+
+- [ ] PCB BoM optimisations (more details in PCB doc)
+
+- [ ] PCB BoM sheet for mouser to automate adding to cart (should be done very soon)
+
+### References & Thanks
+
+The individual who helped me most requested not to be named, but a deep thank you goes out to them for the help they have provided me and continue to provide to the community. Their help is the reason I became more interested in the intricacies of electronics, and that passion has continued far beyond this project now. 
+
+[Kee Keen's open source break in machine](https://github.com/keekeen/MX-Switch-Break-In-Machine/tree/main) helped me greatly in the beginning, definitely check it out if you're interested in the roots of this project!
