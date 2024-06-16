@@ -46,7 +46,7 @@ OC = Off Centre, PA = Nylon
 
 *NOTE:*
 
-Please keep in mind that print tolerances vary between printers (and even print settings). Each piston requires bearings to be pressure fitted for the linear rails. Test first by cutting one of the holes off the model in your slicer, if the bearing fits snug then you're good to go, but if it's too tight or too loose then you can tweak it using the X-Y hole compensation setting in your slicer. This can be very sensitive, so adjust in +/- 50 micron steps.
+Please keep in mind that print tolerances vary between printers (and even print settings). Each piston requires bearings to be pressure fitted for the linear rails. Print the model "Piston-Calibration" first, if the bearing fits snug then you're good to go, but if it's too tight or too loose then you can tweak it using the X-Y hole compensation setting in your slicer. This can be very sensitive, so adjust in +/- 50 micron steps. When you're happy with the fit on the calibration model, go ahead and print the full model with the appropriate X-Y compensation.
 
 #### Additional Hardware
 

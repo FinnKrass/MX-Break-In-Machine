@@ -90,7 +90,7 @@ The machine is quite rugged, I've had customers request their switches broken in
 
 - [ ] Acceptable print tolerance specifications
 
-- [ ] Piston bearing socket tolerance calibration print
+- [x] Piston bearing socket tolerance calibration print
 
 - [ ] PCB BoM optimisations (more details in PCB doc)
 
