@@ -92,6 +92,10 @@ The machine is quite rugged, I've had customers request their switches broken in
 
 - Non-volatile flash memory, will recall number of actuations recorded in the event of power loss.
 
+Here are a few video's showing off the operation. [Video A](https://youtu.be/W0hglbHXOGw), [Video B](https://youtu.be/-IIjR5GEPkg).
+
+Some older video's of their operation can be found [here](https://youtube.com/shorts/SL5bj8C431c) and [here](https://youtube.com/shorts/yf9J68zrslU).
+
 ## To-Do
 
 - [ ] Finalise documentation
