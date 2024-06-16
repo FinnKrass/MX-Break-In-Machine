@@ -108,7 +108,7 @@ The machine is quite rugged, I've had customers request their switches broken in
 
 - [ ] PCB BoM sheet for mouser to automate adding to cart (should be done very soon)
 
-### References & Thanks
+## References & Thanks
 
 The individual who helped me most requested not to be named, but a deep thank you goes out to them for the help they have provided me and continue to provide to the community. Their help is the reason I became more interested in the intricacies of electronics, and that passion has continued far beyond this project now. 
 
