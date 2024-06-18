@@ -4,6 +4,7 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <AP33772.h>
+#include <Bounce2.h>
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -23,7 +24,7 @@ void updateDisplay();
 void resetCount();
 
 
-int counter = 249990;
+int counter = 0;
 int rotation = 0;
 bool countReset = false;
 unsigned long lastWrite = 0;
