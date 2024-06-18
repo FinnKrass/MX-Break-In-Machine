@@ -52,7 +52,7 @@ Please keep in mind that print tolerances vary between printers (and even print 
 
 *Sourcing Notes:* 
 
-There are dedicated documents covering the BoM for the entire project to make sourcing easier. If you're find purchasing from the AliExpress links provided, you can mostly ignore the following notes as they cover things to look out for when sourcing elsewhere.
+There are dedicated documents covering the BoM for the entire project to make sourcing easier. If you're fine purchasing from the AliExpress links provided, you can mostly ignore the following notes as they cover things to look out for when sourcing elsewhere.
 
 The JGA25-370 is easy to find, I've linked product pages I've used but if it's easier to purchase elsewhere then just make sure you buy the correct voltage/speed. The same applies for the linear bearings (LM6UU), though there is a huge difference in quality comparing cheap to expensive. If you get the cheap ones (sub 50c each), buy a handful of extras in case bearings comes out or they're not gliding freely along the rod. The more expensive ones may be worth it if you're going for longevity, if you're in Australia use [these](https://www.makerstore.com.au/product/bear-lm6uu/), and if you can't find any local to yourself then use the links provided in the table below and pick up extras.
 
