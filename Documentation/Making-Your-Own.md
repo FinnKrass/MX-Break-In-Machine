@@ -1,5 +1,7 @@
 ## Making Your Own
 
+![Header Img](https://github.com/FinnKrass/MX-Break-In-Machine/blob/main/Images/Assembly-Full.PNG)
+
 **NOTE:**
 
 It's suggested to read through the repo in whole before choosing to build one, there will be notes for each section which will include vital information. If you find any issues in the design or gaps in the documentation, feel free to open a github issue and the problem will be addressed.
